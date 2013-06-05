@@ -23,7 +23,7 @@ def avance(salle):
     if salle in [laby[numerowumpus][0],laby[numerowumpus][1],laby[numerowumpus][2]]:
         print "GRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRR!!!!!!!!!!!!!!!!"
         print"Le wumpus grogne, il n'est pas loin!"
-        print"Il est même dans une des salles adjacentes a la vôätre!"
+        print"Il est même dans une des salles adjacentes a la vôäéèöütre!"
     print "Les salles adjacentes sont:",laby[salle][0],",",laby[salle][1],"et",laby[salle][2],"."     
     while b:
         print "Tapez 0 pour tirer ou le numéro de la salle dans laquelle vous voulez aller."
