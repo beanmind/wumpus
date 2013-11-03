@@ -8,7 +8,7 @@ def affichemenu():
         print"niveau 1 : pour les nuls"
         print"niveau 2 : pour les moins nuls"
         print"niveau 3 : pour les bons"
-        print"niveau 4 : pour les expérimentés"
+        print u"niveau 4 : pour les expérimentés"
         niveau = raw_input()
         if niveau.isdigit():
             if int(niveau) == 1 or int(niveau) == 2 or int(niveau) == 3 or int(niveau) == 4:
@@ -23,7 +23,7 @@ def avance(salle):
     if salle in [laby[numerowumpus][0],laby[numerowumpus][1],laby[numerowumpus][2]]:
         print "GRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRR!!!!!!!!!!!!!!!!"
         print"Le wumpus grogne, il n'est pas loin!"
-        print"Il est même dans une des salles adjacentes a la vôäéèöütre!"
+        print u"Il est même dans une des salles adjacentes a la vôäéèöütre!"
     print "Les salles adjacentes sont:",laby[salle][0],",",laby[salle][1],"et",laby[salle][2],"."     
     while b:
         print "Tapez 0 pour tirer ou le numéro de la salle dans laquelle vous voulez aller."
